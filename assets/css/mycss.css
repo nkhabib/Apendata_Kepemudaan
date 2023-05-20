@@ -1,0 +1,16 @@
+@media print {
+	.none-print {
+		display: none;
+	}
+
+	.print {
+		display: inline;
+	}
+
+	.right_col {
+		margin: 0 !important;
+		/*fungsi important ini untuk mengembalikan ukuran halaman margin padding dll menjadi 0		*/
+		padding: 0 !important;
+		z-index: 0 !important;
+	}
+}
